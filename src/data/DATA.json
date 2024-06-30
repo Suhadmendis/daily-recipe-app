@@ -1,0 +1,65 @@
+{
+    "greeting": "Bonjour, Emma",
+    "question": "What would you like to cook today?",
+    "searchBar": {
+      "placeholder": "Search for recipes",
+      "icon": "search"
+    },
+    "todayFreshRecipes": {
+      "sectionTitle": "Today's Fresh Recipes",
+      "seeAllLink": "See All",
+      "recipes": [
+        {
+          "type": "Breakfast",
+          "title": "French Toast with Berries",
+          "rating": 5,
+          "calories": 120,
+          "time": "10 mins",
+          "servings": "1 Serving",
+          "image": "french_toast_with_berries.jpg"
+        },
+        {
+          "type": "Breakfast",
+          "title": "Brown Sugar Cinnamon Toast",
+          "rating": 4.5,
+          "calories": 135,
+          "time": "15 mins",
+          "servings": "1 Serving",
+          "image": "brown_sugar_cinnamon_toast.jpg"
+        }
+      ]
+    },
+    "recommendedRecipes": {
+      "sectionTitle": "Recommended",
+      "seeAllLink": "See All",
+      "recipes": [
+        {
+          "type": "Breakfast",
+          "title": "Blueberry Muffins",
+          "rating": 4,
+          "calories": 120,
+          "time": "10 mins",
+          "servings": "1 Serving",
+          "image": "blueberry_muffins.jpg"
+        },
+        {
+          "type": "Main Dish",
+          "title": "Glazed Salmon",
+          "rating": 4.5,
+          "calories": 280,
+          "time": "45 mins",
+          "servings": "1 Serving",
+          "image": "glazed_salmon.jpg"
+        },
+        {
+          "type": "Main Dish",
+          "title": "Asian Glazed Chicken Thighs",
+          "rating": 5,
+          "calories": 300,
+          "time": "1 hr",
+          "servings": "1 Serving",
+          "image": "asian_glazed_chicken_thighs.jpg"
+        }
+      ]
+    }
+  }
