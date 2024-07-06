@@ -10,22 +10,114 @@
       "seeAllLink": "See All",
       "recipes": [
         {
+          "id": 1,
           "type": "Breakfast",
           "title": "French Toast with Berries",
           "rating": 5,
+          "liked": true,
           "calories": 120,
           "time": "10 mins",
           "servings": "1 Serving",
           "image": "french_toast_with_berries.jpg"
         },
         {
+          "id": 2,
           "type": "Breakfast",
           "title": "Brown Sugar Cinnamon Toast",
-          "rating": 4.5,
+          "rating": 4,
+          "liked": false,
           "calories": 135,
           "time": "15 mins",
           "servings": "1 Serving",
           "image": "brown_sugar_cinnamon_toast.jpg"
+        },
+        {
+          "id": 3,
+          "type": "Breakfast",
+          "title": "Avocado Toast",
+          "rating": 5,
+          "liked": false,
+          "calories": 150,
+          "time": "10 mins",
+          "servings": "1 Serving",
+          "image": "avocado_toast.jpg"
+        },
+        {
+          "id": 4,
+          "type": "Breakfast",
+          "title": "Banana Pancakes",
+          "rating": 4,
+          "liked": true,
+          "calories": 200,
+          "time": "20 mins",
+          "servings": "2 Servings",
+          "image": "banana_pancakes.jpg"
+        },
+        {
+          "id": 5,
+          "type": "Breakfast",
+          "title": "Greek Yogurt Parfait",
+          "rating": 4,
+          "liked": false,
+          "calories": 180,
+          "time": "5 mins",
+          "servings": "1 Serving",
+          "image": "greek_yogurt_parfait.jpg"
+        },
+        {
+          "id": 6,
+          "type": "Breakfast",
+          "title": "Smoothie Bowl",
+          "rating": 5,
+          "liked": true,
+          "calories": 250,
+          "time": "10 mins",
+          "servings": "1 Serving",
+          "image": "smoothie_bowl.jpg"
+        },
+        {
+          "id": 7,
+          "type": "Breakfast",
+          "title": "Oatmeal with Fruits",
+          "rating": 6,
+          "liked": false,
+          "calories": 220,
+          "time": "15 mins",
+          "servings": "1 Serving",
+          "image": "oatmeal_with_fruits.jpg"
+        },
+        {
+          "id": 8,
+          "type": "Breakfast",
+          "title": "Egg and Veggie Muffins",
+          "rating": 5,
+          "liked": false,
+          "calories": 90,
+          "time": "25 mins",
+          "servings": "6 Servings",
+          "image": "egg_and_veggie_muffins.jpg"
+        },
+        {
+          "id": 9,
+          "type": "Breakfast",
+          "title": "Chia Seed Pudding",
+          "rating": 4,
+          "liked": false,
+          "calories": 160,
+          "time": "10 mins",
+          "servings": "2 Servings",
+          "image": "chia_seed_pudding.jpg"
+        },
+        {
+          "id": 10,
+          "type": "Breakfast",
+          "title": "Breakfast Burrito",
+          "rating": 5,
+          "liked": false,
+          "calories": 300,
+          "time": "20 mins",
+          "servings": "1 Serving",
+          "image": "breakfast_burrito.jpg"
         }
       ]
     },
@@ -34,31 +126,125 @@
       "seeAllLink": "See All",
       "recipes": [
         {
+          "id": 1,
+          "type": "Breakfast",
+          "title": "French Toast with Berries",
+          "rating": 5,
+          "liked": true,
+          "calories": 120,
+          "time": "10 mins",
+          "servings": "1 Serving",
+          "image": "french_toast_with_berries.jpg"
+        },
+        {
+          "id": 2,
+          "type": "Breakfast",
+          "title": "Brown Sugar Cinnamon Toast",
+          "rating": 4,
+          "liked": false,
+          "calories": 135,
+          "time": "15 mins",
+          "servings": "1 Serving",
+          "image": "brown_sugar_cinnamon_toast.jpg"
+        },
+        {
+          "id": 3,
           "type": "Breakfast",
           "title": "Blueberry Muffins",
           "rating": 4,
+          "liked": true,
           "calories": 120,
           "time": "10 mins",
           "servings": "1 Serving",
           "image": "blueberry_muffins.jpg"
         },
         {
+          "id": 4,
           "type": "Main Dish",
           "title": "Glazed Salmon",
-          "rating": 4.5,
+          "rating": 3,
+          "liked": false,
           "calories": 280,
           "time": "45 mins",
           "servings": "1 Serving",
           "image": "glazed_salmon.jpg"
         },
         {
+          "id": 5,
           "type": "Main Dish",
           "title": "Asian Glazed Chicken Thighs",
           "rating": 5,
+          "liked": true,
           "calories": 300,
           "time": "1 hr",
           "servings": "1 Serving",
           "image": "asian_glazed_chicken_thighs.jpg"
+        },
+        {
+          "id": 6,
+          "type": "Main Dish",
+          "title": "Spaghetti Carbonara",
+          "rating": 3,
+          "liked": false,
+          "calories": 400,
+          "time": "30 mins",
+          "servings": "2 Servings",
+          "image": "spaghetti_carbonara.jpg"
+        },
+        {
+          "id": 7,
+          "type": "Main Dish",
+          "title": "Beef Stir-Fry",
+          "rating": 4,
+          "liked": true,
+          "calories": 350,
+          "time": "25 mins",
+          "servings": "2 Servings",
+          "image": "beef_stir_fry.jpg"
+        },
+        {
+          "id": 8,
+          "type": "Main Dish",
+          "title": "Vegetarian Tacos",
+          "rating": 5,
+          "liked": true,
+          "calories": 250,
+          "time": "20 mins",
+          "servings": "3 Servings",
+          "image": "vegetarian_tacos.jpg"
+        },
+        {
+          "id": 9,
+          "type": "Main Dish",
+          "title": "Chicken Alfredo",
+          "rating": 5,
+          "liked": false,
+          "calories": 450,
+          "time": "35 mins",
+          "servings": "2 Servings",
+          "image": "chicken_alfredo.jpg"
+        },
+        {
+          "id": 10,
+          "type": "Main Dish",
+          "title": "Stuffed Bell Peppers",
+          "rating": 4,
+          "liked": false,
+          "calories": 200,
+          "time": "50 mins",
+          "servings": "4 Servings",
+          "image": "stuffed_bell_peppers.jpg"
+        },
+        {
+          "id": 11,
+          "type": "Main Dish",
+          "title": "Shrimp Scampi",
+          "rating": 3,
+          "liked": false,
+          "calories": 300,
+          "time": "25 mins",
+          "servings": "2 Servings",
+          "image": "shrimp_scampi.jpg"
         }
       ]
     }
